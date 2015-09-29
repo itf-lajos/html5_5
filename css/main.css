@@ -1,0 +1,10 @@
+.glyphicon-volume-off,
+.glyphicon-pause,
+div.played .glyphicon-play-circle,
+div.muted .glyphicon-volume-up {
+    display: none;
+}
+div.played .glyphicon-pause,
+div.muted .glyphicon-volume-off {
+    display: block;
+}
