@@ -8,3 +8,22 @@ div.played .glyphicon-pause,
 div.muted .glyphicon-volume-off {
     display: block;
 }
+
+/* Videó beállítása */
+.starter-template {
+    text-align: justify;
+}
+
+.media-handler-div video {
+    max-width: 100%;
+    box-shadow: 0 0 5px #777777;
+}
+
+.media-handler-div .col-md-12 video {
+    width: 100%;
+    displae: flex;
+}
+
+.video-container {
+    transition: all 0.5s;
+}
