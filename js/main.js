@@ -41,6 +41,11 @@ var audioHandler = function ( div ) {
                 } else {
                     self.video.parentNode.classList.remove( "col-md-3" );
                     self.video.parentNode.classList.add( "col-md-12" );
+                    /* Teljes full-screen
+                    if(self.video.requestFullScreen) { self.video.requestFullScreen(); }
+                    if(self.video.mozRequestFullScreen) { self.video.mozRequestFullScreen(); }
+                    if(self.video.webkitRequestFullScreen) { self.video.webkitRequestFullScreen(); }
+                    */
                 }   
             }, false );    
         }
